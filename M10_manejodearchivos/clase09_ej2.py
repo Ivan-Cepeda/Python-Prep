@@ -1,6 +1,6 @@
 import sys
 # Comprobación de seguridad, ejecutar sólo si se recibe 3 argumentos
-if len(sys.argv) == 2:
+if len(sys.argv) == 4:
     import datetime
     import os
     marca_de_tiempo = datetime.datetime.now()
